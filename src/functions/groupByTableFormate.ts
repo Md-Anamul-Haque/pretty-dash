@@ -4,7 +4,7 @@ type resultType = {
     data: any,
     rows: any,
 };
-const tableFormate = (datas: _.List<unknown> | null | undefined, bgoupByKey: _.ValueIteratee<unknown> | undefined) => {
+const groupByTableFormate = (datas: _.List<unknown> | null | undefined, bgoupByKey: _.ValueIteratee<unknown> | undefined) => {
     let result: resultType = {
         cols: [],
         data: [],
@@ -25,4 +25,4 @@ const tableFormate = (datas: _.List<unknown> | null | undefined, bgoupByKey: _.V
     return (result)
 }
 
-export default tableFormate
+export default groupByTableFormate
