@@ -1,6 +1,6 @@
 {
   "name": "pretty-dash",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "pretty-dash",
   "main": "dist/index.js",
   "scripts": {
@@ -27,10 +27,10 @@
   "homepage": "https://github.com/Md-Anamul-Haque/pretty-dash#readme",
   "dependencies": {
     "@types/lodash": "^4.14.191",
-    "concurrently": "^7.6.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "nodemon": "^2.0.21"
   }
 }

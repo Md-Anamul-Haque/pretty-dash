@@ -1,6 +1,6 @@
-// import _ from "lodash";
+import lodash from "lodash";
 import groupByTableFormate from "./functions/groupByTableFormate";
 
 export { groupByTableFormate };
+export { lodash };
 
-// export default _
