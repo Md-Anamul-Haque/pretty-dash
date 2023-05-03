@@ -1,6 +1,6 @@
 {
   "name": "pretty-dash",
-  "version": "0.0.211",
+  "version": "0.0.220",
   "description": "pretty-dash",
   "main": "dist/index.js",
   "scripts": {
@@ -20,14 +20,15 @@
     "underscore"
   ],
   "author": "Anamul Haque",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Md-Anamul-Haque/pretty-dash/issues"
   },
   "homepage": "https://github.com/Md-Anamul-Haque/pretty-dash#readme",
   "dependencies": {
     "@types/lodash": "^4.14.191",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "typescript": "^5.0.4"
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
